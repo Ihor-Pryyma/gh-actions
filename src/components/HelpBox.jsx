@@ -1,4 +1,5 @@
 import './HelpBox.css';
+import PropTypes from "prop-types";
 
 HelpBox.propTypes = {
   title: PropTypes.string.isRequired,
