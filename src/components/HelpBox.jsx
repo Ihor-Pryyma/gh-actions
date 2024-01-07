@@ -1,5 +1,10 @@
 import './HelpBox.css';
 
+HelpBox.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
+
 function HelpBox({ title, text }) {
   return (
     <article className="help-box">
